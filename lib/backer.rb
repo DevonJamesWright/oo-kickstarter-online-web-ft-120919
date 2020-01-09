@@ -7,8 +7,6 @@ attr_reader :backed_projects
     @backed_projects = []
   end 
     def back_project(project)
-      binding.pry
-      project = Project
       @backed_projects << project
     end 
 
